@@ -41,7 +41,7 @@
     <Cell/>
     <Cell/>
     <Cell/>
-    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">MODMERGEREPLACE: 35 MODMERGEWITH: 40</Data></Cell>
     <Cell/>
     <Cell/>
     <Cell/>
