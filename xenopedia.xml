@@ -1,131 +1,24 @@
 <?xml version="1.0"?>
 <?mso-application progid="Excel.Sheet"?>
-<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
- xmlns:o="urn:schemas-microsoft-com:office:office"
- xmlns:x="urn:schemas-microsoft-com:office:excel"
- xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
- xmlns:html="http://www.w3.org/TR/REC-html40">
- <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
-  <LastAuthor>Chris</LastAuthor>
-  <Created>2013-04-29T16:38:45Z</Created>
-  <LastSaved>2014-06-05T13:13:11Z</LastSaved>
-  <Version>12.00</Version>
- </DocumentProperties>
- <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
-  <AllowPNG/>
- </OfficeDocumentSettings>
- <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>5205</WindowHeight>
-  <WindowWidth>14355</WindowWidth>
-  <WindowTopX>7320</WindowTopX>
-  <WindowTopY>3075</WindowTopY>
-  <TabRatio>221</TabRatio>
-  <RefModeR1C1/>
-  <ProtectStructure>False</ProtectStructure>
-  <ProtectWindows>False</ProtectWindows>
- </ExcelWorkbook>
- <Styles>
-  <Style ss:ID="Default" ss:Name="Normal">
-   <Alignment ss:Vertical="Bottom"/>
-   <Borders/>
-   <Font ss:FontName="Arial" x:CharSet="238"/>
-   <Interior/>
-   <NumberFormat/>
-   <Protection/>
-  </Style>
-  <Style ss:ID="s62">
-   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
-  </Style>
-  <Style ss:ID="s63">
-   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
-  </Style>
-  <Style ss:ID="s66">
-   <Borders>
-    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
-   </Borders>
-  </Style>
-  <Style ss:ID="s67">
-   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
-   <Borders>
-    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
-   </Borders>
-   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
-  </Style>
-  <Style ss:ID="s68">
-   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
-   <Borders>
-    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
-   </Borders>
-   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
-  </Style>
-  <Style ss:ID="s69">
-   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
-   <Font ss:FontName="Arial" x:Family="Swiss"/>
-   <Interior ss:Color="#92D050" ss:Pattern="Solid"/>
-  </Style>
- </Styles>
- <Names>
-  <NamedRange ss:Name="Categories" ss:RefersTo="=Sheet1!#REF!"/>
- </Names>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet">
  <Worksheet ss:Name="Sheet1">
-  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="2" x:FullColumns="1"
-   x:FullRows="1">
-   <Column ss:AutoFitWidth="0" ss:Width="232.5" ss:Span="1"/>
-   <Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="188.25"/>
-   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="130.5"/>
-   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="80.25"/>
-   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="1067.25"/>
-   <Column ss:AutoFitWidth="0" ss:Width="537"/>
-   <Row ss:StyleID="s66">
-    <Cell ss:StyleID="s67"><Data ss:Type="String">Name</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="String">DisplayName</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="String">Image</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="String">Category</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="String">Interface</Data></Cell>
-    <Cell ss:StyleID="s68"><Data ss:Type="String">Description</Data></Cell>
+  <Table>
+   <Row>
+    <Cell><Data ss:Type="String">Name</Data></Cell>
+    <Cell><Data ss:Type="String">DisplayName</Data></Cell>
+    <Cell><Data ss:Type="String">Image</Data></Cell>
+    <Cell><Data ss:Type="String">Category</Data></Cell>
+    <Cell><Data ss:Type="String">Interface</Data></Cell>
+    <Cell><Data ss:Type="String">Description</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s69"><Data ss:Type="String">LivingQuarters</Data></Cell>
-    <Cell ss:StyleID="s69"/>
-    <Cell ss:StyleID="s69"/>
-    <Cell ss:StyleID="s69"/>
-    <Cell ss:StyleID="s69"/>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Living Quarters provide housing for up to 40 personnel - either Soldiers, Scientists or Engineers (any combination of the three personnel types can be housed in the same structure). Living space and any appropriate work space must be in place before new staff can be hired, so ensure your bases have enough living quarters to accommodate your expansion plans.</Data></Cell>
+   <Row>
+    <Cell><Data ss:Type="String">LivingQuarters</Data></Cell>
+    <Cell/>
+    <Cell/>
+    <Cell/>
+    <Cell/>
+    <Cell><Data ss:Type="String">Living Quarters provide housing for up to 40 personnel - either Soldiers, Scientists or Engineers (any combination of the three personnel types can be housed in the same structure). Living space and any appropriate work space must be in place before new staff can be hired, so ensure your bases have enough living quarters to accommodate your expansion plans.</Data></Cell>
    </Row>
   </Table>
-  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
-   <Print>
-    <ValidPrinterInfo/>
-    <PaperSizeIndex>9</PaperSizeIndex>
-    <HorizontalResolution>300</HorizontalResolution>
-    <VerticalResolution>600</VerticalResolution>
-   </Print>
-   <Selected/>
-   <FreezePanes/>
-   <FrozenNoSplit/>
-   <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>1</TopRowBottomPane>
-   <ActivePane>2</ActivePane>
-   <Panes>
-    <Pane>
-     <Number>3</Number>
-    </Pane>
-    <Pane>
-     <Number>2</Number>
-     <ActiveCol>5</ActiveCol>
-    </Pane>
-   </Panes>
-   <ProtectObjects>False</ProtectObjects>
-   <ProtectScenarios>False</ProtectScenarios>
-  </WorksheetOptions>
  </Worksheet>
 </Workbook>
